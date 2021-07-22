@@ -13,13 +13,13 @@ public class ResourceCentre {
 		chromebookList.add(new Chromebook("CB002", "HP Chromebook", "Win 10"));
 
 		int option = 0;
-		option = "a";
 
 		while (option != 5) {
 
 			ResourceCentre.menu();
 			option = Helper.readInt("Enter an option > ");
 
+			option = 3;
 			if (option == 1) {
 				// View all items
 				ResourceCentre.viewAllCamcorder(camcorderList);
